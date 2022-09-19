@@ -1,0 +1,80 @@
+@import "./_veriables";
+@import "./_mixins";
+
+.home {
+  position: relative;
+  height: 98vh;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: $header-bg;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    right: 0;
+  }
+  
+
+  .content {
+    .title {
+      position: absolute;
+      z-index: 20;
+      width: 60%;
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      h1 {
+        color: $link-color;
+        letter-spacing: 1px;
+        line-height: 1.23;
+        font-size: 45px;
+        padding-left: 250px ;
+      }
+
+      .btns {
+        padding-left: 260px;
+        margin-top: 50px;
+        font-size: 90px;
+        @include flex-start();
+    
+        .home-first-btn {
+          @include blue-btn();
+        }
+
+        .home-second-btn {
+          margin-left: 20px;
+          @include line-btn();
+        }
+      }
+      #fill-icon{
+        font-size: 47px;
+        color: $link-color;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 220px;
+        padding-top: 100px;
+        transition: all .3s ease;
+        margin-top: 150px;
+        &:hover{
+          cursor: pointer;
+          transform: translateY(-7%);
+        }
+      }
+    }
+  }
+}

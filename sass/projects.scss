@@ -1,0 +1,121 @@
+@import "./_veriables";
+@import "./_mixins";
+
+.projects{
+    padding: $spacing-between;
+    .content{
+        .our-mission{
+            width: 60%;
+             p{
+                 color: $text-color;
+                 letter-spacing: 1px;
+                 font-weight: $font-wight;
+                 line-height: $line-hight;
+                 margin: 20px 0px;
+                .mission{
+                    color: $text-color;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+             }
+        }
+        .content-block{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+            // flex-wrap: wrap;
+            // flex-direction: column;
+            .block{
+                display: flex;
+                align-items: flex-start;
+                .number{
+                    background-color: $blue;
+                    width: 40px;
+                    height: 35px;
+                    border-radius: 100%;
+                    padding: 10px;
+                    color: $link-color;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 15px;
+                }
+                .title{
+                    h2{
+                        position: relative;
+                        color: $blue;
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            width: 20px;
+                            height: 2.5px;
+                            background-color: $blue;
+                            top: 15px;
+                            left: 115px;
+                        }
+                    } 
+                    .depo{
+                        position: relative;
+                        color: $blue;
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            width: 20px;
+                            height: 2.5px;
+                            background-color: $blue;
+                            top: 15px;
+                            left: 70px;
+                        }
+                    }
+                    .medcheck{
+                         position: relative;
+                        color: $blue;
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            width: 20px;
+                            height: 2.5px;
+                            background-color: $blue;
+                            top: 15px;
+                            left: 125px;
+                        }
+                    }
+                }
+            }
+        }
+        p{
+            padding-bottom: 15px;
+        }
+        .block-images{
+            .images{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                img{
+                    width: 400px;
+                    height: 400px;
+                    margin: 10px;
+                    object-fit: cover;
+
+                }
+            }
+            .btn{
+                width: 30%;
+                border: 3px solid $text-color;
+                border-radius: 5px;
+                background: none;
+                padding: 15px;
+                cursor: pointer;
+                align-items: center;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                margin: 20px auto;
+
+            }
+        }
+    }
+}

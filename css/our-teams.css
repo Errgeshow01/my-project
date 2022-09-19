@@ -1,0 +1,43 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.our-teams .global-title {
+  text-align: center;
+  padding: 60px; }
+.our-teams .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .our-teams .content .card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; }
+    .our-teams .content .card img {
+      width: 200px;
+      object-fit: cover; }
+    .our-teams .content .card .esen-bayke {
+      color: #0974f1;
+      font-weight: 600;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      font-size: 1.23;
+      padding: 10px 0; }
+    .our-teams .content .card span {
+      font-size: 12px;
+      display: flex;
+      text-align: center;
+      justify-content: space-around;
+      color: #000;
+      font-weight: 100; }
+
+/*# sourceMappingURL=our-teams.css.map */

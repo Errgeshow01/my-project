@@ -1,0 +1,29 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.header {
+  background-color: black;
+  height: 70px; }
+  .header .content {
+    padding: 15px 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .header .content .logo img {
+      width: 65px; }
+    .header .content ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .header .content ul .link {
+        color: #ffffff;
+        margin-left: 5px;
+        font-weight: 700px;
+        padding: 20px;
+        font-size: 16px; }
+        .header .content ul .link:hover {
+          cursor: pointer;
+          color: gray; }
+
+/*# sourceMappingURL=header.css.map */

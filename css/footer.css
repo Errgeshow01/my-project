@@ -1,0 +1,31 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.footer {
+  padding: 100px 0;
+  background: #000; }
+  .footer .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .footer .content .left img {
+      width: 150px;
+      height: 90px;
+      margin: 40px 0; }
+    .footer .content .left p span {
+      font-size: 15px;
+      font-weight: 100; }
+    .footer .content .right {
+      display: flex;
+      justify-content: space-between;
+      width: 20%; }
+      .footer .content .right .block h4 {
+        font-size: 22px; }
+      .footer .content .right .block .link {
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 2.23;
+        font-weight: 100; }
+
+/*# sourceMappingURL=footer.css.map */

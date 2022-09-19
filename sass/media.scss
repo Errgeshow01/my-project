@@ -1,0 +1,85 @@
+@media(max-width:1440px){
+}
+@media(max-width:1200px){
+    .content-block{
+        align-items: flex-start;
+    }
+}
+@media(max-width:1024px){
+}
+@media(max-width:992px){
+}
+@media(max-width:768px){
+    .home{
+        height: 50vh;
+    .container{
+        width: 100%;
+        .content{
+            .title{
+                padding-top: 150px;
+                h1{
+                    color: $link-color;
+                    letter-spacing: 1px;
+                    line-height: 1.23;
+                    font-size: 25px;
+                    padding-left: 250px ; 
+                    padding-top: 100px;
+                    
+                }
+            }
+        }
+        }
+       
+    }
+    .projects{
+        .container{
+            .content{
+                .our-mission{
+                    .content-block{
+                        display: none;
+                        flex-wrap: wrap;
+                        flex-direction: column; 
+                    }
+                }
+            }
+        }
+    }
+    .our-fons{
+        height: 70vh;
+        .container{
+        width: 100%;
+        .content{
+            .title{
+                padding-top: 150px;
+                h2{
+                    color: $link-color;
+                    letter-spacing: 1px;
+                    line-height: 1.23;
+                    font-size: 30px;
+                    padding-left: 250px ; 
+                    padding-top: 100px;
+                    padding-bottom: 30px;
+                    
+                }
+                .mancho-devs{
+                    font-size: 18px;
+                }
+            }
+        }
+        }
+    }
+}
+@media(max-width:576px){
+  body{
+    width: 400px;
+  }
+}
+@media(max-width:450px){
+}
+@media(max-width:400px){
+}
+@media(max-width:380px){
+}
+@media(max-width:320px){
+}
+

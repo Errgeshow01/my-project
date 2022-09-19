@@ -1,0 +1,13 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.information .content img {
+  width: 80%; }
+.information .content .blocks {
+  display: flex;
+  margin: 30px; }
+.information .content .information-top img {
+  width: 50px; }
+
+/*# sourceMappingURL=information.css.map */

@@ -1,0 +1,48 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.works {
+  padding-top: 200px;
+  padding-bottom: 200px; }
+  .works .global-title {
+    text-align: center; }
+  .works .content .p {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 200;
+    padding: 30px 0;
+    letter-spacing: 1px; }
+  .works .content .blocks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    .works .content .blocks .block {
+      width: 600px;
+      padding: 40px 0; }
+      .works .content .blocks .block .works--circle {
+        display: flex; }
+        .works .content .blocks .block .works--circle .icon {
+          width: 35px;
+          height: 35px;
+          background: blue;
+          color: white;
+          font-size: 20px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 15px; }
+        .works .content .blocks .block .works--circle .txt {
+          width: 600px; }
+          .works .content .blocks .block .works--circle .txt h2 {
+            padding-bottom: 20px;
+            font-size: 20px;
+            font-weight: 400;
+            color: #0974f1; }
+          .works .content .blocks .block .works--circle .txt p {
+            font-size: 14px;
+            letter-spacing: 1px; }
+
+/*# sourceMappingURL=our-text.css.map */

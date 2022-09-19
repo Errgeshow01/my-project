@@ -1,0 +1,26 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.about {
+  padding: 70px 100px; }
+  .about .content {
+    width: 60%; }
+    .about .content .about-text {
+      color: #0974f1;
+      font-weight: bolder; }
+  .about .mancho-devs-name {
+    color: #000;
+    font-weight: bold;
+    font-size: 18px; }
+  .about p {
+    color: black;
+    letter-spacing: 1px;
+    line-height: 2.5;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 20px; }
+    .about p .esen-bayke {
+      border-bottom: 2px solid #0974f1; }
+
+/*# sourceMappingURL=about.css.map */

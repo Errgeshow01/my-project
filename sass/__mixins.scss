@@ -1,0 +1,60 @@
+@import "./_veriables";
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+@mixin flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin blue-btn {
+  background: $blue;
+  color: $link-color;
+  padding: 14px;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 14px;
+  transition: all .3s ease;
+  cursor: pointer;
+  &:hover,
+  &:focus { 
+    background-color: #096bdc;
+    color: #ffffff;
+  }
+  
+  &:active {
+    background: #075dbf;
+    color:" rgb(255, 255,255,)";
+  }
+  
+  &:disabled { 
+    cursor: not-allowed;
+    background:"rgb("0, 0, 0,")";
+    color: rgb(0, 0, 0,);
+  }
+ 
+  
+}
+@mixin line-btn {
+  border: 2px solid $link-color;
+  color: $link-color;
+  padding: 12px;
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}

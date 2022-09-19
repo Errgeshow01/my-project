@@ -1,0 +1,13 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.hero-hub .content {
+  align-items: center; }
+  .hero-hub .content p {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300; }
+
+/*# sourceMappingURL=hero-hub.css.map */

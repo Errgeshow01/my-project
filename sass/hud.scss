@@ -1,0 +1,21 @@
+  @import "./_mixins";
+  @import "./_veriables";
+
+.home-block{
+  height: 50vh;
+  background-image: -webkit-linear-gradient(top, rgba(46,103,248,1), rgba(46,103,248,1));
+        .block-home{
+          h1{
+            color: $link-color;
+            font-weight: 600;
+            font-size: 70px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding-top: 200px;
+            margin-left: 250px;
+            justify-content: center;
+            width: 70%;
+          }
+        }
+}

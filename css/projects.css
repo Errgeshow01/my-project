@@ -1,0 +1,97 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.projects {
+  padding: 100px; }
+  .projects .content .our-mission {
+    width: 60%; }
+    .projects .content .our-mission p {
+      color: #000;
+      letter-spacing: 1px;
+      font-weight: 200;
+      line-height: 1.5;
+      margin: 20px 0px; }
+      .projects .content .our-mission p .mission {
+        color: #000;
+        font-weight: 600;
+        font-size: 18px; }
+  .projects .content .content-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    .projects .content .content-block .block {
+      display: flex;
+      align-items: flex-start; }
+      .projects .content .content-block .block .number {
+        background-color: #0974f1;
+        width: 40px;
+        height: 35px;
+        border-radius: 100%;
+        padding: 10px;
+        color: #ffffff;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 15px; }
+      .projects .content .content-block .block .title h2 {
+        position: relative;
+        color: #0974f1; }
+        .projects .content .content-block .block .title h2::after {
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 2.5px;
+          background-color: #0974f1;
+          top: 15px;
+          left: 115px; }
+      .projects .content .content-block .block .title .depo {
+        position: relative;
+        color: #0974f1; }
+        .projects .content .content-block .block .title .depo::after {
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 2.5px;
+          background-color: #0974f1;
+          top: 15px;
+          left: 70px; }
+      .projects .content .content-block .block .title .medcheck {
+        position: relative;
+        color: #0974f1; }
+        .projects .content .content-block .block .title .medcheck::after {
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 2.5px;
+          background-color: #0974f1;
+          top: 15px;
+          left: 125px; }
+  .projects .content p {
+    padding-bottom: 15px; }
+  .projects .content .block-images .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .projects .content .block-images .images img {
+      width: 400px;
+      height: 400px;
+      margin: 10px;
+      object-fit: cover; }
+  .projects .content .block-images .btn {
+    width: 30%;
+    border: 3px solid #000;
+    border-radius: 5px;
+    background: none;
+    padding: 15px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto; }
+
+/*# sourceMappingURL=projects.css.map */

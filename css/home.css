@@ -1,0 +1,92 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.home {
+  position: relative;
+  height: 98vh; }
+  .home::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0; }
+  .home .video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    right: 0; }
+  .home .content .title {
+    position: absolute;
+    z-index: 20;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    .home .content .title h1 {
+      color: #ffffff;
+      letter-spacing: 1px;
+      line-height: 1.23;
+      font-size: 45px;
+      padding-left: 250px; }
+    .home .content .title .btns {
+      padding-left: 260px;
+      margin-top: 50px;
+      font-size: 90px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: start; }
+      .home .content .title .btns .home-first-btn {
+        background: #0974f1;
+        color: #ffffff;
+        padding: 14px;
+        border-radius: 20px;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        font-size: 14px;
+        transition: all .3s ease;
+        cursor: pointer; }
+        .home .content .title .btns .home-first-btn:hover, .home .content .title .btns .home-first-btn:focus {
+          background-color: #096bdc;
+          color: #ffffff; }
+        .home .content .title .btns .home-first-btn:active {
+          background: #075dbf;
+          color: " rgb(255, 255,255,)"; }
+        .home .content .title .btns .home-first-btn:disabled {
+          cursor: not-allowed;
+          background: "rgb(" 0, 0, 0, ")";
+          color: black; }
+      .home .content .title .btns .home-second-btn {
+        margin-left: 20px;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        padding: 12px;
+        border-radius: 25px;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        font-size: 14px;
+        cursor: pointer; }
+    .home .content .title #fill-icon {
+      font-size: 47px;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 220px;
+      padding-top: 100px;
+      transition: all .3s ease;
+      margin-top: 150px; }
+      .home .content .title #fill-icon:hover {
+        cursor: pointer;
+        transform: translateY(-7%); }
+
+/*# sourceMappingURL=home.css.map */

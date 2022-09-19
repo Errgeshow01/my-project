@@ -1,0 +1,44 @@
+@import "./_mixins";
+@import "./_veriables";
+
+.footer{
+    padding: $spacing-between 0;
+    background: #000;
+    .content{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+        .left{
+            img{
+                width: 150px;
+                height: 90px;
+                margin: 40px 0;
+                
+            }
+            p{
+                span{
+                    font-size: 15px;
+                    font-weight: 100;
+                }
+            }
+        }
+    .right{
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        .block{
+            h4{
+                font-size: 22px;
+
+            }
+             .link{
+                color: $link-color;
+                font-size: 18px;
+                line-height: 2.23;
+                font-weight: 100;
+
+             }
+        }
+     }
+    }
+}

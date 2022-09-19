@@ -1,0 +1,15 @@
+@import "./_mixins";
+@import "./_veriables";
+
+.hero-hub{
+    .content{
+        align-items: center;
+            p{
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+    }    
+    
+   }
+}
